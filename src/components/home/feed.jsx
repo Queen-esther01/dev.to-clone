@@ -58,7 +58,7 @@ const Feed = () => {
                                                     <p className='text-sm'>{info.reactions}<span className='hidden md:inline'> reaction{info.reactions > 1 && 's'}</span></p>
                                                 </div>
                                                 <div className="flex items-center ml-5">
-                                                    <img src={Comment} alt="" className='w-6 h-6 mr-2' />
+                                                    <img src={Comment} alt="comment-icon" className='w-6 h-6 mr-2' />
                                                     <p className='text-sm'>{info.comments}<span className='hidden md:inline'> comment{info.comments > 1 && 's'}</span></p>
                                                 </div>
                                             </div>
