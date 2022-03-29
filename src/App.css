@@ -17,6 +17,9 @@ body{
 .text-blue{
   color: var(--blue);
 }
+.bg-blue{
+  background: var(--blue);
+}
 .light-grey-bg{
   background: var(--light-grey);
 }
@@ -25,4 +28,11 @@ body{
 }
 .text-title{
   font-size: 1.5rem;
+}
+ul{
+  list-style: disc;
+  list-style-position: inside;
+}
+.rotate{
+  transform: rotate(-10deg);
 }
