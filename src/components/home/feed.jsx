@@ -1,10 +1,11 @@
 import React from 'react'
-import Javascript from '../assets/js.webp'
-import { feedInfo } from '../utils/feedInfo'
-import Dev from '../assets/banner.jpg'
-import Like from '../assets/heart.png'
-import Comment from '../assets/comment.png'
-import Logo from '../assets/dev.png'
+import Javascript from '../../assets/js.webp'
+import { feedInfo } from '../../utils/feedInfo'
+import Dev from '../../assets/banner.jpg'
+import Like from '../../assets/heart.png'
+import Comment from '../../assets/comment.png'
+import Logo from '../../assets/dev.png'
+import { Link } from 'react-router-dom'
 
 const Feed = () => {
     console.log(feedInfo)
@@ -38,7 +39,9 @@ const Feed = () => {
                                     
                                     <div className='md:ml-10'>
                                         
-                                        <p className={(info.id === 1 ? 'text-xl leading-normal md:text-3xl md:leading-11' : 'text-2xl') + ' font-bold md:leading-8 mt-2 cursor-pointer'}>{info.title}</p>
+                                        <p className={(info.id === 1 ? 'text-xl leading-normal md:text-3xl md:leading-11' : 'text-2xl') + ' font-bold hover:text-blue-700 md:leading-8 mt-2 cursor-pointer'}>
+                                            <Link to={info.link}>{info.title}</Link>
+                                        </p>
                                         {
                                             info.tags && <div className="mt-3 my-2">
                                                 {

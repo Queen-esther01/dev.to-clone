@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Deepgram from '../assets/deepgram.webp'
-import { deepGramLinks, listings } from '../utils/infoLinks'
+import Deepgram from '../../assets/deepgram.webp'
+import { deepGramLinks, listings } from '../../utils/infoLinks'
 
 const Info = () => {
     return (

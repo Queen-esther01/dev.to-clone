@@ -1,8 +1,8 @@
 import React from 'react'
-import Feed from './components/feed'
-import Header from './components/header'
-import Info from './components/info'
-import Sidebar from './components/sidebar'
+import Feed from '../components/home/feed'
+import Header from '../components/shared/header'
+import Info from '../components/home/info'
+import Sidebar from '../components/home/sidebar'
 
 const Home = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../assets/dev.png'
-import Search from '../assets/search.png'
-import Menu from '../assets/menu.png'
+import Logo from '../../assets/dev.png'
+import Search from '../../assets/search.png'
+import Menu from '../../assets/menu.png'
 
 function Header() {
     return (
