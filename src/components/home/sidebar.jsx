@@ -1,5 +1,5 @@
 import React from 'react'
-import { popularTags, sidebarLinks, sidebarOtherLinks, socialMediaImages } from '../utils/sidebarLinks'
+import { popularTags, sidebarLinks, sidebarOtherLinks, socialMediaImages } from '../../utils/sidebarLinks'
 
 const Sidebar = () => {
     return (
