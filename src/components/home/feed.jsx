@@ -5,7 +5,6 @@ import Dev from '../../assets/banner.jpg'
 import Like from '../../assets/heart.png'
 import Comment from '../../assets/comment.png'
 import Logo from '../../assets/dev.png'
-import { Link } from 'react-router-dom'
 
 const Feed = () => {
     console.log(feedInfo)
@@ -40,7 +39,7 @@ const Feed = () => {
                                     <div className='md:ml-10'>
                                         
                                         <p className={(info.id === 1 ? 'text-xl leading-normal md:text-3xl md:leading-11' : 'text-2xl') + ' font-bold hover:text-blue-700 md:leading-8 mt-2 cursor-pointer'}>
-                                            <Link to={info.link}>{info.title}</Link>
+                                            <a href={info.link}>{info.title}</a>
                                         </p>
                                         {
                                             info.tags && <div className="mt-3 my-2">
